@@ -3,7 +3,8 @@
     <section class="profile">
       <Header title="我 的"></Header>
       <section class="profile-number">
-        <a href="javascript:" class="profile-link">
+        <!-- 给登陆标签绑定事件，点击后跳转到登录组件路由 -->
+        <a href="javascript:" class="profile-link" @click="$router.push('/login')">
           <div class="profile_image">
             <i class="iconfont icon-person"></i>
           </div>
